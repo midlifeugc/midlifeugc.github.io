@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ✏️ EDIT: your name + niche -->
+  <title>Tracy Minnoch-Nuku | UGC Creator 50+</title>
+  <meta name="description" content="UGC creator making scroll-stopping videos for beauty, lifestyle and wellness brands.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="logo">Tracy Minnoch-Nuku</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#results">Results</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="mailto:midlifeugc@gmail.com?subject=UGC%20inquiry" class="btn btn-small">Work with me</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">UGC Creator 50+ · Beauty · Lifestyle · Wellness · Fitness</p>
+        <h1>Grown-up content for brands that want <em>grown-up buyers.</em></h1>
+        <p class="lead">I make short-form videos and photos for TikTok, Reels and paid ads that speak to people 45+, the customers with the time, the trust and the budget to buy.</p>
+        <div class="hero-cta">
+          <a href="#work" class="btn">See my work</a>
+          <a href="mailto:midlifeugc@gmail.com?subject=UGC%20inquiry" class="btn btn-ghost">Get a quote</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- ✏️ EDIT: put a photo of yourself in the images folder and change the src -->
+        <img src="images/headshot.jpg" alt="Tracy Minnoch-Nuku, UGC creator" onerror="this.parentElement.classList.add('placeholder')">
+        <span class="placeholder-label">Your photo here<br><small>images/headshot.jpg</small></span>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats-strip" aria-label="Key numbers">
+      <div class="stats">
+        <div><strong>500+</strong><span>videos delivered</span></div>
+        <div><strong>200+</strong><span>brands</span></div>
+        <div><strong>48h</strong><span>typical turnaround (off-peak)</span></div>
+        <div><strong>14.1K</strong><span>TikTok followers</span></div>
+        <div><strong>40.8K</strong><span>TikTok likes</span></div>
+      </div>
+    </section>
+
+    <!-- ============ BRANDS ============ -->
+    <section class="brands">
+      <p>Brands I've created for</p>
+      <!-- Logos live in images/logos/. To add one, copy an <li> and change the file + brand name. -->
+      <div class="ticker-wrap"><div class="ticker">
+      <ul class="logos">
+        <li><img src="images/logos/ag1.svg" alt="AG1"></li>
+        <li><img src="images/logos/welleco.png" alt="WelleCo"></li>
+        <li><img src="images/logos/oxfam.png" alt="Oxfam"></li>
+        <li><img src="images/logos/betterme.svg" alt="BetterMe"></li>
+        <li><img src="images/logos/bioglan.jpg" alt="Bioglan"></li>
+        <li><img src="images/logos/taoclean.svg" alt="TAO Clean"></li>
+        <li><img src="images/logos/nutra.svg" alt="Nutra Organics"></li>
+        <li><img src="images/logos/gogood.png" alt="GoGood" class="tall"></li>
+      </ul>
+      </div></div>
+      <p class="more-brands">Plus The Whitening Co, Lifestream, Elta Ego, Jeuneora, Moodi Blends, Tend Health and 200+ more</p>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section id="work" class="section">
+      <div class="section-head">
+        <h2>Featured work</h2>
+        <div class="filters" role="group" aria-label="Filter videos">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="product">Product demo</button>
+          <button data-filter="talking">Talking head</button>
+          <button data-filter="lifestyle">Lifestyle &amp; fitness</button>
+        </div>
+      </div>
+
+      <!--
+        ✏️ HOW TO ADD OR CHANGE A CARD
+        Copy one <article class="video"> block and change:
+          • data-type → product / talking / lifestyle (used by the filter buttons)
+          • the image in images/work/ (a vertical 9:16 still works best)
+          • the title and description
+        To make a card PLAY a video instead of showing a still, replace the <img> with either:
+          • a YouTube Shorts embed:  <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+          • or a small video file:   <video src="videos/my-clip.mp4" poster="images/work/my-still.jpg" controls playsinline preload="metadata"></video>
+      -->
+      <div class="grid">
+
+        <article class="video" data-type="product">
+          <div class="frame"><img src="images/work/jeuneora-beauty-sleep.jpg" alt="Tracy scooping Jeuneora Beauty Sleep Super Powder in her kitchen" loading="lazy"></div>
+          <h3>Jeuneora</h3>
+          <p>Beauty Sleep Super Powder · Product demo</p>
+        </article>
+
+        <article class="video" data-type="product">
+          <div class="frame"><img src="images/work/cls-preworkout.jpg" alt="Tracy holding a tub of CLS High Stim pre-workout" loading="lazy"></div>
+          <h3>CLS</h3>
+          <p>High Stim pre-workout · Fitness supplement</p>
+        </article>
+
+        <article class="video" data-type="talking">
+          <div class="frame"><img src="images/work/talking-head.jpg" alt="Tracy talking to camera with on-screen captions" loading="lazy"></div>
+          <h3>Talking-head review</h3>
+          <p>Direct-to-camera with captions · TikTok &amp; Reels</p>
+        </article>
+
+        <article class="video" data-type="lifestyle">
+          <div class="frame"><img src="images/work/bush-walk.jpg" alt="Tracy walking on a bush track with a backpack" loading="lazy"></div>
+          <h3>Outdoor lifestyle</h3>
+          <p>Active bush walk · Lifestyle &amp; fitness</p>
+        </article>
+
+        <article class="video" data-type="lifestyle">
+          <div class="frame"><img src="images/work/run-for-autism.jpg" alt="Tracy in a Run for Autism singlet taking a selfie outdoors" loading="lazy"></div>
+          <h3>Run for Autism</h3>
+          <p>Running selfie · Fitness &amp; community</p>
+        </article>
+
+        <article class="video" data-type="lifestyle">
+          <div class="frame"><img src="images/work/cooking-at-home.jpg" alt="Tracy cooking a vegetable omelette in her kitchen, talking excitedly to camera" loading="lazy"></div>
+          <h3>Cooking at home</h3>
+          <p>Healthy meal in the kitchen · Lifestyle</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ RESULTS ============ -->
+    <section id="results" class="section results">
+      <h2>Results</h2>
+      <p class="results-intro">My content runs as real paid ads, so brands know it performs before they commit.</p>
+      <div class="result-cards">
+        <div class="result">
+          <p class="result-label">Paid-ad tested</p>
+          <p class="result-number">25,000+</p>
+          <p class="result-desc"><strong>impressions</strong> and <strong>160+ clicks</strong> to the brand's website from Meta ads for <strong>Kiri10</strong>, a haircare &amp; supplement brand.</p>
+          <p class="result-meta">Meta Ads · New Zealand · Jun &amp; Aug 2026</p>
+        </div>
+        <div class="result">
+          <p class="result-label">Low-cost reach</p>
+          <p class="result-number">$19.80</p>
+          <p class="result-desc"><strong>per 1,000 impressions</strong> on a broad 18–65+ audience, so brands reach more people for every dollar.</p>
+          <p class="result-meta">Kiri10 · Meta Ads · New Zealand · Jun 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section id="testimonials" class="section testimonials">
+      <div class="section-head">
+        <h2>What brands say</h2>
+        <div class="t-nav">
+          <button type="button" class="t-btn" data-dir="-1" aria-label="Previous testimonials">&larr;</button>
+          <button type="button" class="t-btn" data-dir="1" aria-label="Next testimonials">&rarr;</button>
+        </div>
+      </div>
+      <!-- To add a testimonial: copy a <figure class="tcard"> block and change the quote and name. -->
+      <div class="t-track" tabindex="0" aria-label="Client testimonials, scroll sideways">
+          <figure class="tcard">
+            <blockquote>Tracy was a pleasure to work with from start to finish. She was clear and professional in her communication, took the time to genuinely use the products before filming, and delivered on schedule. Her videos captured the calm, premium feel we were after while still feeling natural and authentic. I would highly recommend her to any brand looking for thoughtful, high-quality UGC.</blockquote>
+            <figcaption>Kyla Scully, MN8 Skincare</figcaption>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Working with Tracy was a seamless experience. She took our creative brief and delivered high-quality content that perfectly aligned with our client's aesthetic and goals. Tracy's communication was prompt, and she made the entire coordination process effortless. I wouldn't hesitate to recommend Tracy for future UGC projects.</blockquote>
+            <figcaption>Libby Hutchinson, Flow Marketing NZ</figcaption>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Working with Tracy was an absolute pleasure! She demonstrated remarkable patience as we deliberated on our product and marketing strategy. Once we were ready to proceed, she quickly produced the script and draft videos with meticulous attention to detail and a deep understanding of our brand voice. I am confident that her content will be a resounding success for CaliWoods. We eagerly anticipate collaborating with Tracy (and her naturally talented son) again in the future.</blockquote>
+            <figcaption>CaliWoods</figcaption>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Tracy exceeded all expectations with her work on our UGC content. She not only perfectly captured the essence of our brand but also brought an exceptional level of creativity and insight to the project. Her ability to enhance our original script was remarkable, resulting in a final product that was significantly superior to what we had envisioned. Tracy's dedication and talent were evident throughout the process, making her an invaluable asset to our team. Her work is a testament to her professionalism and skill in content creation.</blockquote>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Tracy was great to work with! Her videos have a strong visual appeal and look polished and well-executed. She delivered everything on time and was very proactive in her communication, keeping things clear and moving smoothly. Overall, a very positive experience and I'd definitely recommend working with her!</blockquote>
+            <figcaption>Hustler M, verified buyer</figcaption>
+          </figure>
+          <figure class="tcard">
+            <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+            <blockquote>Tracy is 10/10 in content creation, super fast delivery and great quality. I have worked with her in multiple projects and always come for more!</blockquote>
+            <figcaption>Verified review</figcaption>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Thanks Tracy, I just approved the project. I'm super happy with everything and it's turned out above and beyond what we were after. Thank you so much for all the effort you've put in, it's been lovely working with you!</blockquote>
+          </figure>
+          <figure class="tcard">
+            <blockquote>We're really happy to hear you enjoyed the project — your creativity and quality of work truly stood out, and we would absolutely love to continue collaborating on future projects. I'll definitely be in touch soon with new opportunities!</blockquote>
+          </figure>
+          <figure class="tcard">
+            <blockquote>…honestly wow! Thank you so much, you have done amazing. I am really happy with these and so glad I gave you the freedom to create your own script.</blockquote>
+          </figure>
+          <figure class="tcard">
+            <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+            <blockquote>Tracy did a great video for me and I'd highly recommend her if you're looking for a professional to help. She's an expert at what she does.</blockquote>
+            <figcaption>Verified review, UGC Video Creation</figcaption>
+          </figure>
+          <figure class="tcard">
+            <blockquote>It was a pleasure working with Tracy - very professional and timely delivery. The content is great and engaging to watch and listen to.</blockquote>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Tracy is a pleasure to work with and the video she produced was really great quality. Recommend her for any of your UGC needs!</blockquote>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Tracy is great to work with and had very clear communication and actually over-delivered. Recommend!</blockquote>
+          </figure>
+          <figure class="tcard">
+            <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+            <blockquote>Tracy produced a great video and a script with a fast turnaround. Highly recommend.</blockquote>
+            <figcaption>Verified review</figcaption>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Thank you so much for the videos Tracy. We love them! Will be in touch soon as I have another brief that I believe you would be perfect for.</blockquote>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Exceptional service from this creator! Definitely will collaborate with her again for other jobs.</blockquote>
+            <figcaption>vikki_dong, verified buyer</figcaption>
+          </figure>
+          <figure class="tcard">
+            <blockquote>Thanks so much – both videos look great! We're happy to go ahead with them as they are.</blockquote>
+          </figure>
+          <figure class="tcard">
+            <blockquote>These are fantastic, thank you Tracy!! :)</blockquote>
+          </figure>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section about">
+      <h2>Hi, I'm Tracy 👋</h2>
+      <p class="bio-lead">I'm your mature UGC creator based in New Zealand, and I work closely with you to tell a compelling, genuine story about your brand, product or service.</p>
+      <p>With 35 years in fitness and experience as a menopause educator, I bring real expertise to every brief. At 50+, I speak to the 45+ audience as one of them. I know what they care about, what makes them skeptical and what makes them buy. Whether I'm cooking a healthy breakfast, heading out for a run or sharing my evening wellness routine, my content feels like a recommendation from a trusted friend, not an ad.</p>
+      <p>After 500+ videos for 200+ brands across beauty, lifestyle, wellness and fitness, I know how to turn a brief into content that connects, from the first hook to the final call to action. You'll get clear communication, thoughtful ideas and content that's ready to post or run as an ad.</p>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section id="services" class="section alt">
+      <h2>What I offer</h2>
+      <!-- ✏️ EDIT: your packages (no prices shown; brands request a quote) -->
+      <div class="cards">
+        <div class="card">
+          <h3>Single video</h3>
+          <p class="price">Ad-ready video content</p>
+          <ul>
+            <li>1 vertical video for TikTok, Reels or ads</li>
+            <li>30 days paid ad usage rights</li>
+            <li>Captions included</li>
+            <li>License-free music</li>
+            <li>Extra hooks &amp; CTAs available as add-ons</li>
+          </ul>
+        </div>
+        <div class="card featured">
+          <span class="tag">Most popular</span>
+          <h3>Ad bundle</h3>
+          <p class="price">Multiple videos to test</p>
+          <ul>
+            <li>3 videos with different hooks</li>
+            <li>30 days paid ad usage rights</li>
+            <li>Captions included</li>
+            <li>License-free music</li>
+            <li>Extra hooks &amp; CTAs available as add-ons</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="negotiables">
+        <h3>Negotiables</h3>
+        <p class="neg-intro">Need something extra? These can be added to any package.</p>
+        <ul class="neg-list">
+          <li><strong>Rush delivery</strong><span>Faster turnaround when you're on a tight deadline</span></li>
+          <li><strong>Additional revisions</strong><span>Extra rounds of changes beyond what's included</span></li>
+          <li><strong>Extended paid ad usage</strong><span>Add more months of paid ad usage beyond the included 30 days</span></li>
+          <li><strong>Whitelisting</strong><span>Run ads through my social account so they appear from me, not the brand</span></li>
+        </ul>
+      </div>
+      <div class="quote-cta">
+        <p>Every brand and brief is different, so I tailor rates to what you need.</p>
+        <a href="#contact" class="btn">Request a quote</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <h2>Let's make something</h2>
+      <p>Tell me about your product and I'll be in touch with a quote.</p>
+      <!-- Quote form is hosted on Jotform (edit it at jotform.com). Entries are emailed to midlifeugc@gmail.com. -->
+      <div class="form-card">
+        <iframe id="JotFormIFrame-263177592198067" title="Request a quote form" src="https://form.jotform.com/263177592198067" allow="geolocation; microphone; camera; fullscreen" style="width:100%;min-width:100%;height:900px;border:none;" scrolling="no"></iframe>
+      </div>
+      <p class="email-alt">Prefer email?</p>
+      <a class="btn btn-big" href="mailto:midlifeugc@gmail.com?subject=UGC%20inquiry">midlifeugc@gmail.com</a>
+      <div class="socials">
+        <a href="https://www.tiktok.com/@sexyageing" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.instagram.com/midlifeugc" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>© <span id="year"></span> Tracy Minnoch-Nuku · UGC Creator</footer>
+
+  <script>
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Logo ticker: copy the list once so the scroll loops seamlessly
+    const logoList = document.querySelector('.ticker .logos');
+    if (logoList) {
+      const copy = logoList.cloneNode(true);
+      copy.setAttribute('aria-hidden', 'true');
+      logoList.parentElement.appendChild(copy);
+    }
+
+    // Testimonial arrows: scroll one card at a time
+    const track = document.querySelector('.t-track');
+    document.querySelectorAll('.t-btn').forEach(btn => btn.addEventListener('click', () => {
+      const card = track.querySelector('.tcard');
+      const step = card ? card.getBoundingClientRect().width + 20 : 300;
+      track.scrollBy({ left: step * Number(btn.dataset.dir), behavior: 'smooth' });
+    }));
+
+    // Video filter buttons
+    const buttons = document.querySelectorAll('.filters button');
+    const videos = document.querySelectorAll('.video');
+    buttons.forEach(btn => btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      videos.forEach(v => v.hidden = !(f === 'all' || v.dataset.type === f));
+    }));
+  </script>
+  <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+  <script>
+    if (window.jotformEmbedHandler) {
+      window.jotformEmbedHandler("iframe[id='JotFormIFrame-263177592198067']", "https://form.jotform.com/");
+    }
+  </script>
+</body>
+</html>
